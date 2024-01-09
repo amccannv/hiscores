@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiscores</title>
+    <link rel="shortcut icon" href="./public/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadDefaultStats()">
+    <div class="container">
+        <input type="text" id="playerName" placeholder="Enter player name" value="Lepage">
+        <button onclick="lookupHiscores()">Lookup</button>
+        <table id="hiscoresTable">
+            <!-- Table content will be dynamically added using JavaScript -->
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
